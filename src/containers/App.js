@@ -36,7 +36,7 @@ class App extends React.Component {
                 <Scrollbars style={{ height: '100vh' }}>
                     <div className="pa1 tc">
                         <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet"></link>
-                        <div id="pallete" className="tc ma4 pa1 br3 mt5 pb4 shadow-4 ">
+                        <div id="pallete" className="tc ma3 pa1 br3 mt5 pb4 shadow-4 ">
                             <h1 id="title" className="f1 garamond">Robo-Contacts</h1>
                             <SearchBox searchChange={this.onSearchChange} />
                             <ErrorBoundaries>
