@@ -1,5 +1,5 @@
-#body {
-    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(173,191,23,1) 0%, rgba(123,210,71,1) 40%, rgba(0,211,255,1) 100%);
+body {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(173, 191, 23, 1) 0%, rgba(123, 210, 71, 1) 40%, rgba(0, 211, 255, 1) 100%);
 }
 
 #pallete {
