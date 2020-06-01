@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Robo-Contacts/static/css/main.4def7c54.chunk.css",
+    "main.js": "/Robo-Contacts/static/js/main.73da8aad.chunk.js",
+    "main.js.map": "/Robo-Contacts/static/js/main.73da8aad.chunk.js.map",
+    "runtime-main.js": "/Robo-Contacts/static/js/runtime-main.b0d639de.js",
+    "runtime-main.js.map": "/Robo-Contacts/static/js/runtime-main.b0d639de.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/Robo-Contacts/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.03f2c672.chunk.js": "/Robo-Contacts/static/js/2.03f2c672.chunk.js",
+    "static/js/2.03f2c672.chunk.js.map": "/Robo-Contacts/static/js/2.03f2c672.chunk.js.map",
+    "index.html": "/Robo-Contacts/index.html",
+    "precache-manifest.0d5bf6e8849a63f01b6dbbc5c3dfd10c.js": "/Robo-Contacts/precache-manifest.0d5bf6e8849a63f01b6dbbc5c3dfd10c.js",
+    "service-worker.js": "/Robo-Contacts/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/Robo-Contacts/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.4def7c54.chunk.css.map": "/Robo-Contacts/static/css/main.4def7c54.chunk.css.map",
+    "static/js/2.03f2c672.chunk.js.LICENSE.txt": "/Robo-Contacts/static/js/2.03f2c672.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b0d639de.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.03f2c672.chunk.js",
+    "static/css/main.4def7c54.chunk.css",
+    "static/js/main.73da8aad.chunk.js"
+  ]
+}
