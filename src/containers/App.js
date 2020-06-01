@@ -34,14 +34,14 @@ class App extends React.Component {
         } else {
             return (
                 <Scrollbars style={{ height: '100vh' }}>
-                    <div className="pa1">
+                    <div className="pa1 ">
                         <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet"></link>
                         <div id="pallete" className="tc ma5 pa1 br3 pb4 shadow-4 ">
                             <h1 id="title" className="f1 garamond">Robo-Contacts</h1>
                             <SearchBox searchChange={this.onSearchChange} />
                             <ErrorBoundaries>
                                 <Scrollbars style={{ height: 350 }}>
-                                    <CardList robots={filteredRobots} />
+                                    <CardList className="tc" robots={filteredRobots} />
                                 </Scrollbars>
                             </ErrorBoundaries>
                         </div>
