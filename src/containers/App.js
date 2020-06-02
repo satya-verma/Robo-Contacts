@@ -23,7 +23,12 @@ class App extends React.Component {
             return robot.name.toLowerCase().includes(searchField.toLowerCase());
         });
         if (!robots.length) {
-            return <h1 className="tc">Loading...</h1>
+            return (
+                <div>
+                    <h1 className="tc">Loading...</h1>
+                    <h1 className="tc">refresh if does not load</h1>
+                </div>
+            )
         } else {
             return (
                 <Scrollbars style={{ height: '100vh' }}>
