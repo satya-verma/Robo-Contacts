@@ -13,6 +13,12 @@ class App extends React.Component {
         }
     }
 
+    componentDidMount() {
+        fetch('https://jsonplaceholder.typicode.com/users')
+            .then(response => response.json())
+            .then(users => { this.setState({ robots: json }) });
+    }
+
     onSearchChange = (event) => {
         this.setState({ searchField: event.target.value });
     }
@@ -47,12 +53,6 @@ class App extends React.Component {
                 </Scrollbars>
             );
         }
-    }
-
-    componentDidMount() {
-        fetch('https://jsonplaceholder.typicode.com/users')
-            .then(response => response.json())
-            .then(json => this.setState({ robots: json }));
     }
 
 }
