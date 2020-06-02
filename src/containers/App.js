@@ -3,6 +3,7 @@ import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import { Scrollbars } from 'react-custom-scrollbars';
 import ErrorBoundaries from '../components/ErrorBoundaries';
+import './App.css';
 
 class App extends React.Component {
     constructor() {

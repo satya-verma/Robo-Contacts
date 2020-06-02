@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './components/Card.css';
-import './containers/App.css';
 import App from './containers/App';
 import 'tachyons';
 
