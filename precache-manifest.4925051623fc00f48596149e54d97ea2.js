@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e6a42ebf0a5a346e3f29966cf95365e0",
+    "revision": "96a4f8e3c9b47b07fe24570d55917195",
     "url": "/Robo-Contacts/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Robo-Contacts/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "b2bd4002f3e709e6bfd4",
+    "revision": "048b21f40453e75c7742",
     "url": "/Robo-Contacts/static/css/main.4def7c54.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Robo-Contacts/static/js/2.03f2c672.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b2bd4002f3e709e6bfd4",
-    "url": "/Robo-Contacts/static/js/main.71255514.chunk.js"
+    "revision": "048b21f40453e75c7742",
+    "url": "/Robo-Contacts/static/js/main.13df8860.chunk.js"
   },
   {
     "revision": "1acf853a499eaffa22bb",
