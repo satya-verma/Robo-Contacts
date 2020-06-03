@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/Robo-Contacts/static/css/main.4def7c54.chunk.css",
-    "main.js": "/Robo-Contacts/static/js/main.e088cba9.chunk.js",
-    "main.js.map": "/Robo-Contacts/static/js/main.e088cba9.chunk.js.map",
+    "main.js": "/Robo-Contacts/static/js/main.afdb4abe.chunk.js",
+    "main.js.map": "/Robo-Contacts/static/js/main.afdb4abe.chunk.js.map",
     "runtime-main.js": "/Robo-Contacts/static/js/runtime-main.b0d639de.js",
     "runtime-main.js.map": "/Robo-Contacts/static/js/runtime-main.b0d639de.js.map",
     "static/css/2.3c03f26f.chunk.css": "/Robo-Contacts/static/css/2.3c03f26f.chunk.css",
-    "static/js/2.03f2c672.chunk.js": "/Robo-Contacts/static/js/2.03f2c672.chunk.js",
-    "static/js/2.03f2c672.chunk.js.map": "/Robo-Contacts/static/js/2.03f2c672.chunk.js.map",
+    "static/js/2.d382dfc8.chunk.js": "/Robo-Contacts/static/js/2.d382dfc8.chunk.js",
+    "static/js/2.d382dfc8.chunk.js.map": "/Robo-Contacts/static/js/2.d382dfc8.chunk.js.map",
     "index.html": "/Robo-Contacts/index.html",
-    "precache-manifest.da9d8338ec4057e88e160cafc9d0600f.js": "/Robo-Contacts/precache-manifest.da9d8338ec4057e88e160cafc9d0600f.js",
+    "precache-manifest.6ccb4a343bf322844c0e485fffe648ab.js": "/Robo-Contacts/precache-manifest.6ccb4a343bf322844c0e485fffe648ab.js",
     "service-worker.js": "/Robo-Contacts/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/Robo-Contacts/static/css/2.3c03f26f.chunk.css.map",
     "static/css/main.4def7c54.chunk.css.map": "/Robo-Contacts/static/css/main.4def7c54.chunk.css.map",
-    "static/js/2.03f2c672.chunk.js.LICENSE.txt": "/Robo-Contacts/static/js/2.03f2c672.chunk.js.LICENSE.txt"
+    "static/js/2.d382dfc8.chunk.js.LICENSE.txt": "/Robo-Contacts/static/js/2.d382dfc8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b0d639de.js",
     "static/css/2.3c03f26f.chunk.css",
-    "static/js/2.03f2c672.chunk.js",
+    "static/js/2.d382dfc8.chunk.js",
     "static/css/main.4def7c54.chunk.css",
-    "static/js/main.e088cba9.chunk.js"
+    "static/js/main.afdb4abe.chunk.js"
   ]
 }
