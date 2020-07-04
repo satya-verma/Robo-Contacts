@@ -6,7 +6,7 @@ import ErrorBoundaries from '../components/ErrorBoundaries';
 import { robots } from '../components/robots';
 import { connect } from 'react-redux';
 import './App.css';
-import { setSearchField } from '../action';
+import { setSearchField } from '../actions';
 
 const mapStateToProps = (state) => {
     return { searchField: state.searchField };
