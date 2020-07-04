@@ -3,15 +3,24 @@ import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import { Scrollbars } from 'react-custom-scrollbars';
 import ErrorBoundaries from '../components/ErrorBoundaries';
-import {robots} from '../components/robots';
+import { robots } from '../components/robots';
+import { connect } from 'react-redux';
 import './App.css';
+import { setSearchField } from '../action';
+
+const mapStateToProps = (state) => {
+    return { searchField: state.searchField };
+}
+
+const mapDispatchToProps = (dispatch) => {
+    return { onSearchChange: (event) => dispatch(setSearchField(event.target.value)) }
+}
 
 class App extends React.Component {
     constructor() {
         super();
         this.state = {
             robots: robots,
-            searchField: ''
         }
     }
 
@@ -21,12 +30,9 @@ class App extends React.Component {
             .then(users => { this.setState({ robots: users }) });
     }
 
-    onSearchChange = (event) => {
-        this.setState({ searchField: event.target.value });
-    }
-
     render() {
-        const { robots, searchField } = this.state;
+        const { robots } = this.state;
+        const { searchField, onSearchChange } = this.props;
         const filteredRobots = robots.filter(robot => {
             return robot.name.toLowerCase().includes(searchField.toLowerCase());
         });
@@ -44,7 +50,7 @@ class App extends React.Component {
                         <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet"></link>
                         <div id="pallete" className="tc ma3 pa1 br3 mt5 pb4 shadow-4 ">
                             <h1 id="title" className="f1 garamond">Robo-Contacts</h1>
-                            <SearchBox searchChange={this.onSearchChange} />
+                            <SearchBox searchChange={onSearchChange} />
                             <ErrorBoundaries>
                                 <Scrollbars style={{ height: 350 }}>
                                     <CardList className="tc" robots={filteredRobots} />
@@ -59,4 +65,4 @@ class App extends React.Component {
 
 }
 
-export default App;
+export default connect(mapStateToProps, mapDispatchToProps)(App);
